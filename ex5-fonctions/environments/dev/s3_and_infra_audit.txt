@@ -1,0 +1,9 @@
+--- Audit S3 et infrastructure (Simulation) ---
+Bucket nettoye        : mon-super-bucket-s3-dev
+Bucket court (15 car) : mon-super-bucke
+Nb types d'instances  : 2
+Instance choisie      : t3.small
+Gateway privee        : aucune-gateway
+Reseau fusionne       : subnet=10.0.20.0/24, gateway=igw-dev
+Cles du reseau        : gateway, subnet
+Reseau en JSON        : {"gateway":"igw-dev","subnet":"10.0.20.0/24"}
