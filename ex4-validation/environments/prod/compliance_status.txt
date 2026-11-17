@@ -1,0 +1,4 @@
+--- Statut de conformite (Simulation) ---
+Environnement : prod
+Stockage      : 500 Go
+Conformite    : OK

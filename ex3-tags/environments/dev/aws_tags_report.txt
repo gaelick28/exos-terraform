@@ -1,0 +1,7 @@
+--- Rapport de tags AWS (Simulation) ---
+Prefixe normalise : dev-ecommerce
+
+Tags standardises :
+  Project     : ecommerce
+  Environment : dev
+  Owner       : equipe-cloud

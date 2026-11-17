@@ -1,0 +1,5 @@
+--- Cartographie réseau VPC (staging) ---
+Zones de disponibilité : eu-west-3a, eu-west-3b
+Zone principale        : eu-west-3a
+Sous-reseaux declares  : private, public
+Detail des CIDR        : {"private":"10.0.12.0/24","public":"10.0.2.0/24"}

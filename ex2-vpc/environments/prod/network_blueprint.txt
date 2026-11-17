@@ -1,0 +1,5 @@
+--- Cartographie réseau VPC (prod) ---
+Zones de disponibilité : eu-west-3a, eu-west-3b, eu-west-3c
+Zone principale        : eu-west-3a
+Sous-reseaux declares  : private, public
+Detail des CIDR        : {"private":"10.0.13.0/24","public":"10.0.3.0/24"}

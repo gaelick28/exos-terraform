@@ -1,0 +1,5 @@
+--- Cartographie réseau VPC (dev) ---
+Zones de disponibilité : eu-west-3a, eu-west-3b
+Zone principale        : eu-west-3a
+Sous-reseaux declares  : private, public
+Detail des CIDR        : {"private":"10.0.11.0/24","public":"10.0.1.0/24"}

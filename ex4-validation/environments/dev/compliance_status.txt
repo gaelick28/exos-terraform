@@ -1,0 +1,4 @@
+--- Statut de conformite (Simulation) ---
+Environnement : dev
+Stockage      : 20 Go
+Conformite    : OK

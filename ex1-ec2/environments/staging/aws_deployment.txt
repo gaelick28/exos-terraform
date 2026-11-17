@@ -1,0 +1,3 @@
+Région AWS            : eu-west-3
+Instances EC2         : 2
+Monitoring CloudWatch : actif

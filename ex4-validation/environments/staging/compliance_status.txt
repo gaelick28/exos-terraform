@@ -1,0 +1,4 @@
+--- Statut de conformite (Simulation) ---
+Environnement : staging
+Stockage      : 100 Go
+Conformite    : OK

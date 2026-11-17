@@ -1,0 +1,7 @@
+--- Rapport de tags AWS (Simulation) ---
+Prefixe normalise : staging-ecommerce
+
+Tags standardises :
+  Project     : ecommerce
+  Environment : staging
+  Owner       : equipe-cloud
