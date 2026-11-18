@@ -1,0 +1,28 @@
+name: "CI"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  ci:
+    name: "Integration Continue"
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Init
+        run: terraform init
+        working-directory: ex1-ec2/environments/dev
+
+      - name: Format
+        run: terraform fmt -recursive -check
+        working-directory: ex1-ec2/environments/dev
+
+      - name: Validate
+        run: terraform validate
+        working-directory: ex1-ec2/environments/dev
