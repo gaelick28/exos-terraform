@@ -1,0 +1,32 @@
+name: "CD"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  cd:
+    name: "Deploiement Continu"
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        working-directory: ex1-ec2/environments/dev
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Init
+        run: terraform init
+
+      - name: Plan
+        run: terraform plan -out=tfplan
+
+      - name: Apply
+        run: terraform apply tfplan
+
+      - name: Afficher le fichier cree
+        run: cat aws_deployment.txt
